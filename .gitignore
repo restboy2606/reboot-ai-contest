@@ -3,3 +3,8 @@
 node_modules/
 dist/
 *.log
+
+# 개인정보 포함 서류 (public 레포에 올리면 안 됨)
+참가서류_*.hwpx
+*.hwp
+*수료증*
