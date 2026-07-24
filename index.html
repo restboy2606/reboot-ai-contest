@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>안심체크 제안서 — 2026 리부트 AI 활용대회</title>
+  <meta name="description" content="국내 LLM Solar를 메인으로 써서, 부모님이 사기 문자를 바로 확인하도록 만든 무설치 웹 서비스 안심체크 제안서." />
+  <meta property="og:title" content="안심체크 — 이 문자, 진짜예요?" />
+  <meta property="og:description" content="교육에서 배운 국내 LLM Solar를 메인으로 쓴 부모님 세대 사기 문자 확인 서비스." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#top">
+        <span class="mark" aria-hidden="true"></span>
+        <span>안심체크</span>
+        <em>제안서</em>
+      </a>
+      <nav class="nav">
+        <a href="#why">왜</a>
+        <a href="#what">무엇을</a>
+        <a href="#solar">Solar</a>
+        <a href="#proof">검증</a>
+      </nav>
+      <div class="top-actions">
+        <a class="btn ghost" href="https://github.com/restboy2606/anshim-check" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn primary" href="https://anshim-check.vercel.app" target="_blank" rel="noopener">라이브 써보기</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <div class="pill-row">
+            <span class="pill">2026 리부트 AI 활용대회</span>
+            <span class="pill soft">1차 예선 산출물</span>
+          </div>
+          <h1>
+            문자가 <span class="accent">사기인지</span>,<br />
+            <span class="muted">부모님이</span><br />
+            직접 확인합니다.
+          </h1>
+          <p class="lede">
+            설치·가입 없이 받은 문자를 붙여넣기만 하면,<br class="only-desk" />
+            국내 AI가 위험 여부와 이유까지 바로 알려 줍니다.
+          </p>
+          <div class="summary-card">
+            <strong>한 줄 요약</strong>
+            <p>교육에서 배운 국내 LLM Solar를 메인으로 써서, 부모님 세대를 위한 사기 문자를 바로 확인하도록 만든 무설치 웹 서비스입니다.</p>
+          </div>
+          <div class="cta-row">
+            <a class="btn primary lg" href="https://anshim-check.vercel.app" target="_blank" rel="noopener">라이브 서비스 열기</a>
+            <a class="btn ghost lg" href="https://github.com/restboy2606/anshim-check" target="_blank" rel="noopener">소스 코드 보기</a>
+          </div>
+          <div class="meta-grid">
+            <div>
+              <span>메인 AI</span>
+              <b>Upstage Solar Pro 3</b>
+            </div>
+            <div>
+              <span>제출 마감</span>
+              <b>2026.07.29 11:00</b>
+            </div>
+            <div>
+              <span>형식</span>
+              <b>웹 서비스 + 제안서</b>
+            </div>
+            <div>
+              <span>역할 분리</span>
+              <b>해외 AI는 보조만</b>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-shell">
+            <img src="./assets/hero-app.svg" alt="안심체크 서비스 미리보기 다이어그램" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="why">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Why</span>
+          <h2>멀리 있는 나는 바로 못 봐줘도,<br /><span class="muted">부모님은</span> 바로 확인할 수 있어야 했습니다.</h2>
+        </div>
+        <div class="two-col">
+          <article class="soft-panel">
+            <span class="mini-label">내가 마주한 상황</span>
+            <h3>의심 문자가 왔을 때,<br />부모님이 혼자 판단해야 하는 순간.</h3>
+            <ol class="scene-list">
+              <li><b>1</b><span>부모님 폰에 모르는 문자가 옵니다.</span></li>
+              <li><b>2</b><span>지금 당장 자녀에게 물어보기 어렵습니다.</span></li>
+              <li><b>3</b><span>앱 설치·가입이 필요한 서비스는 쓰기 어렵습니다.</span></li>
+              <li><b>4</b><span>그래서 붙여넣기 한 번으로 끝나게 만들었습니다.</span></li>
+            </ol>
+          </article>
+          <div class="stack">
+            <article class="white-card">
+              <span>01</span>
+              <h4>사기범은 불안과 다급함을 무기로 씁니다</h4>
+              <p>"지금 안 하면 큰일 난다"는 압박이 정상적인 판단을 흔듭니다.</p>
+            </article>
+            <article class="white-card">
+              <span>02</span>
+              <h4>위급한 순간엔 자녀에게 물어볼 생각조차 안 납니다</h4>
+              <p>패닉이 오면 "일단 확인해보자"는 여유 자체가 사라집니다.</p>
+            </article>
+            <article class="white-card">
+              <span>03</span>
+              <h4>기존 확인 수단은 문턱이 너무 높습니다</h4>
+              <p>설치·회원가입·계좌 연결이 필요한 순간, 정작 필요한 분은 멈춥니다.</p>
+            </article>
+            <article class="note-card">
+              <span class="mini-label">교육과의 연결</span>
+              <p>리부트 AI 과정에서 배운 국내 LLM 활용과 프롬프트 설계를, 부모님 문자 확인이라는 실제 생활 문제에 바로 적용했습니다.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="what">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">What</span>
+          <h2>붙여넣기 → 판정 → 공유.<br /><span class="muted">세 번이면</span> 충분합니다.</h2>
+        </div>
+        <div class="flow-visual">
+          <img src="./assets/hero-flow.svg" alt="안심체크 사용 흐름 다이어그램" />
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>문턱 없음</h3>
+            <p>설치·가입·로그인 없이 링크 하나로 바로 사용. 홈 화면에 추가하면 앱처럼 켤 수 있습니다.</p>
+          </article>
+          <article>
+            <h3>어르신 눈높이</h3>
+            <p>큰 글씨, 쉬운 말, 결과 읽어주기, 위험 부분 하이라이트.</p>
+          </article>
+          <article>
+            <h3>혼자 끝내지 않기</h3>
+            <p>가족 공유와 공식 상담 안내(1394·1332)로 다음 행동을 연결합니다.</p>
+          </article>
+          <article>
+            <h3>작은 공익 한 줄</h3>
+            <p>확인 후 남는 자리에는 광고 대신 경찰청 실종 공개정보를 둡니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="solar">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">How Solar</span>
+          <h2>그냥 불러 쓰지 않고,<br /><span class="muted">판정 기준을</span> 직접 설계했습니다.</h2>
+        </div>
+        <div class="two-col reverse">
+          <div class="stack">
+            <article class="soft-panel compact">
+              <span class="mini-label">역할 구분</span>
+              <div class="chip-row">
+                <span class="chip on">메인: Upstage Solar Pro 3</span>
+                <span class="chip">Vercel Functions</span>
+                <span class="chip">PWA</span>
+                <span class="chip">Vanilla JS</span>
+              </div>
+              <p class="role-note"><b>국내 LLM이 메인입니다.</b> Solar가 문자 위험도를 판정하고, Claude Code·Codex는 구현·QA 보조로만 사용했습니다.</p>
+            </article>
+            <article class="white-card">
+              <span class="mini-label">5유형</span>
+              <div class="chip-row wrap">
+                <span class="chip soft">링크형</span>
+                <span class="chip soft">사칭·협박형</span>
+                <span class="chip soft">기관 콜백형</span>
+                <span class="chip soft">가족 긴급송금형</span>
+                <span class="chip soft">링크 미끼형</span>
+              </div>
+            </article>
+            <article class="white-card">
+              <span class="mini-label">안전 규칙</span>
+              <ul class="rule-list">
+                <li>입력에 없는 내용은 지어내지 않는다</li>
+                <li>애매하면 낮음이 아니라 중간으로 판단한다</li>
+                <li>의심 이유와 위험도는 반드시 일치해야 한다</li>
+              </ul>
+            </article>
+          </div>
+          <div class="stack">
+            <article class="before-card">
+              <span class="badge bad">BEFORE</span>
+              <h4>판정 모순 발견</h4>
+              <p>이유: "계좌 이체를 요구합니다" → 위험도: <b>낮음</b><br />근거는 사기인데 판정이 어긋나던 문제.</p>
+            </article>
+            <article class="after-card">
+              <span class="badge good">AFTER</span>
+              <h4>규칙 추가 후</h4>
+              <p>같은 문자 → 위험도: <b>높음</b><br />"이유와 위험도는 일치" 규칙을 넣어 바로잡았습니다.</p>
+            </article>
+            <article class="white-card">
+              <div class="mini-find">
+                <b>발견 2</b>
+                <p>평범한 문자를 사기로 오판 → "지어내지 않기" 규칙으로 해결</p>
+              </div>
+              <div class="mini-find">
+                <b>발견 3</b>
+                <p>실종 사진 base64 원문 문제 → data URI 변환으로 정상 표시</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="arch-visual">
+          <img src="./assets/hero-arch.svg" alt="안심체크 기술 구조 다이어그램" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="proof">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Proof</span>
+          <h2>감으로 끝내지 않고,<br /><span class="muted">직접 테스트하고</span> 한계도 적었습니다.</h2>
+        </div>
+        <div class="stat-grid">
+          <article>
+            <strong>10 / 10</strong>
+            <span>실제 사용 상황</span>
+            <p>페르소나 기반 시나리오</p>
+          </article>
+          <article>
+            <strong>15 / 15</strong>
+            <span>고난도 사기 문자</span>
+            <p>까다로운 샘플 통과</p>
+          </article>
+          <article>
+            <strong>8 / 10</strong>
+            <span>점수 경계 테스트</span>
+            <p>서비스 오류 0건</p>
+          </article>
+        </div>
+        <div class="note-bar">
+          <b>8/10 해석:</b> 남은 2건은 장애가 아니라 경계 판정 차이입니다. 서비스 중단이나 잘못된 출력은 없었습니다.
+        </div>
+        <div class="two-col">
+          <article class="white-card">
+            <span class="mini-label">무엇을 검증했나</span>
+            <ul class="check-list">
+              <li><b>교육 활용</b> Solar 메인 판정 + 5유형 프롬프트 직접 설계</li>
+              <li><b>노력과 개선</b> 모순·오판·표시 오류를 스스로 발견하고 재검증</li>
+              <li><b>생활 적용</b> 무설치 · 큰 글씨 · 가족 공유로 실제 상황 겨냥</li>
+              <li><b>표현과 구성</b> 결과 화면 가독성 + 공익 정보 한 줄</li>
+            </ul>
+          </article>
+          <article class="soft-panel">
+            <span class="mini-label">윤리와 한계</span>
+            <ul class="ethics-list">
+              <li>
+                <b>입력 문자는 저장하지 않습니다</b>
+                <span>서버에는 API 키만 두고, 확인한 문자 본문은 보관하지 않습니다.</span>
+              </li>
+              <li>
+                <b>AI 판정은 참고용입니다</b>
+                <span>최종 확인은 피싱안심SOS · 1394 · 금감원 1332 등 공식 기관을 권합니다.</span>
+              </li>
+              <li>
+                <b>공개 자료는 출처를 밝힙니다</b>
+                <span>실종 정보는 경찰청 안전Dream 공개자료이며 출처를 화면에 표기합니다.</span>
+              </li>
+              <li>
+                <b>실시간 통화 분석은 못 합니다</b>
+                <span>보이스피싱 통화 자체는 분석하지 않으므로, 통화 중 3원칙으로 보완합니다.</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section close" id="close">
+      <div class="wrap close-grid">
+        <div>
+          <span class="eyebrow light">Submit</span>
+          <h2>가장 필요한 분이,<br />가장 쉽게 쓰도록<br />만들었습니다.</h2>
+          <p class="lede light">
+            대신 판단해 주는 도구가 아니라,<br />
+            스스로 확인하도록 돕는 도구.
+          </p>
+          <ul class="close-list">
+            <li>실제 생활 문제에서 출발</li>
+            <li>국내 LLM Solar를 메인으로 사용</li>
+            <li>프롬프트를 직접 설계하고 고침</li>
+            <li>지금 바로 써볼 수 있음</li>
+          </ul>
+        </div>
+        <div class="close-cta">
+          <a class="btn white lg" href="https://anshim-check.vercel.app" target="_blank" rel="noopener">라이브 서비스 →</a>
+          <a class="btn soft-white lg" href="https://github.com/restboy2606/anshim-check" target="_blank" rel="noopener">소스 코드 →</a>
+          <p class="fineprint">메인 판정: Upstage Solar Pro 3 · 개발 보조: Claude Code / Codex · 입력 문자 미저장 · AI 판정은 참고용</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div>
+        <b>안심체크</b>
+        <span>2026 리부트 AI 활용대회 제안서 웹</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://anshim-check.vercel.app" target="_blank" rel="noopener">Live</a>
+        <a href="https://github.com/restboy2606/anshim-check" target="_blank" rel="noopener">Service Repo</a>
+        <a href="https://github.com/restboy2606/reboot-ai-contest" target="_blank" rel="noopener">Proposal Repo</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
